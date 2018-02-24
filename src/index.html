@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Beatless previews</title>
+
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Product+Sans"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans">
+  </head>
+
+  <body>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+        font-family: sans-serif;
+        font-family: 'Google Sans', Arial, sans-serif;
+        font-weight: inherit;
+        font-size: 16px;
+        box-sizing: border-box;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .iron-icon {
+        box-sizing: content-box;
+        width: 24px;
+        height: 24px;
+      }
+
+      .episode-preview {
+        display: flex;
+        flex-direction: column;
+
+        max-width: calc(100% / 4 * 3);
+        width: 100%;
+        margin: 0 auto;
+        padding: 10%;
+        background-color: #fff;
+        color: #000;
+      }
+
+      .preview-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
+      .preview-header__row-1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        margin: 0 0 24px 0;
+      }
+      .preview-header__row-1 > span {
+        margin: 0 24px 0 0;
+      }
+
+      .preview-header__row-2 {
+        line-height: 24px;
+      }
+
+      .preview-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin: 5em auto;
+      }
+      .preview-main > h2 {
+        font-size: 5em;
+        letter-spacing: 10px;
+        margin-bottom: 0;
+      }
+      .preview-main > h3 {
+        font-size: 5.5em;
+        letter-spacing: 32px;
+        margin-top: .25em;
+        text-align: center;
+      }
+
+      .preview-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+      }
+      .preview-footer > h2 {
+        margin: 0;
+        font-size: 2em;
+      }
+      .preview-footer > p {
+        font-size: 16px;
+      }
+    </style>
+
+    <header>
+      <h1>Beatless previews</h1>
+    </header>
+
+    <main>
+      <section class="episode-preview">
+        <div class="preview-header">
+          <div>
+            <div class="preview-header__row-1">
+              <span>BEATLESS</span>
+              <div class="iron-icon">
+                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                  <g id="remove-circle-outline"><path d="M7 11v2h10v-2H7zm5-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path></g>
+                </svg>
+              </div>
+
+              <div class="iron-icon">
+                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                  <g id="add-circle-outline"><path d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path></g>
+                </svg>
+              </div>
+            </div>
+
+            <div class="preview-header__row-2">
+              <div>This is the story of a young man.</div>
+              <div>In a world a hundred years from now,</div>
+              <div>he encounters the future.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="preview-main">
+          <h2>EP03</h2>
+          <h3>You'll be mine</h3>
+        </div>
+
+        <div class="preview-footer">
+          <h2>BEATLESS</h2>
+          <p>I trust in your smile. I won't care whether you are soulless or not.</p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
